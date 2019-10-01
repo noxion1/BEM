@@ -30,7 +30,7 @@ body {
     font-size: 17px;
   }
 
-  .topnav__a__logo {
+  .topnav__logo {
       width: 2.5em;
   }
 
@@ -48,10 +48,7 @@ body {
     display: none;
   }
 
-  .topnav__icon__i {
-    color: #797a7e;
-    margin-top: 5px;
-  }
+
 
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -78,28 +75,31 @@ body {
 
   /* Header */
 
-  .head__logo__small {
+  .head__logo {
     margin-bottom: -10px;
     width: 40px;
     height: 40px;
   }
 
-  .head__text__middle {
+  .head_text p {
     padding: 15px;
     margin: 5px;
     font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .head__text--middle {
+
     color: black;
   }
 
-  .head__text__long {
-    padding: 15px;
-    margin: 5px;
-    font-family: 'Montserrat', sans-serif;
+  .head__text--long {
+
     color: #797a7e;
   }
 
 
-  .head__image__big {
+  .head__image {
     width: 100%;
   }
 
@@ -162,7 +162,7 @@ div.portofolio__text {
 }
 
 
-.portofolio__1__inhoud {
+.portofolio__1--inhoud {
   font-family: 'PT Serif', serif;
 }
 
