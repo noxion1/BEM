@@ -88,12 +88,12 @@ body {
 
   }
 
-  .head__text--middle {
+  .head__text__middle {
 
     color: black;
   }
 
-  .head__text--long {
+  .head__text__long {
 
     color: #797a7e;
   }
@@ -139,13 +139,13 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-div.portofolio__text {
+.portofolio__text {
   font-size: 60px;
 }
 }
 
 @media screen and (max-width: 600px) {
-div.portofolio__text {
+.portofolio__text {
   padding-top: 30px;
   font-size: 25px;
 }
